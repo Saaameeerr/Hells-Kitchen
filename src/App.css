@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  border-bottom: 1px solid grey ;
+}
+.banner{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/pexels-vanmalidate-769289.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner strong{
+  text-align: center;
+}
+.meal{
+  background-image:linear-gradient(to bottom , rgba(0,0,0,0.525) , rgba(0,0,0,0.525)) ,url(assets/pexels-vanmalidate-769289.jpg);
+  background-size: contain;
+}
+aside{
+  text-align: center;
+  padding: 50px 20px !important;
+  border-right: 1px solid grey;
+}
+aside button{
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin-bottom: 10px;
+}
